@@ -1,0 +1,124 @@
+@font-face {
+  font-family: Inter;
+  font-family: Lora;
+  font-family: Roboto;
+  font-family: Inconsolata;
+  font-family: Montserrat;
+  src: url(../src/assets/fonts/Inter_28pt-Regular.ttf);
+  src: url(../src/assets/fonts/Lora-Bold.ttf);
+  src: url(../src/assets/fonts/Roboto-Regular.ttf);
+  src: url(../src/assets/fonts/Inconsolata-Regular.ttf);
+  src: url(../src/assets/fonts/Montserrat-Regular.ttf);
+}
+
+/* body {
+  height: screen;
+} */
+
+@import "tailwindcss";
+
+@theme {
+  --font-inter: Inter, "sans-sarif";
+  --font-lora: Lora, "sans-sarif";
+  --font-roboto: Roboto, "sans-sarif";
+  --font-inconsolata: Inconsolata, "sans-sarif";
+  --font-montserrat: Montserrat, "sans-sarif";
+}
+
+.logo {
+  margin: 2.5rem;
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.social {
+  background-color: #ffffff;
+  color: #000000;
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: 9999px;
+  justify-content: center;
+  padding: 0.125rem;
+  margin-bottom: 0.3rem;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  color: #d1d5db;
+  position: relative;
+  cursor: pointer;
+  font-weight: 500;
+}
+.title:hover {
+  font-weight: bold;
+}
+.sideSocial {
+  position: relative;
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 3px;
+  border: 1px solid rgb(181, 176, 176);
+  border-radius: 50%;
+}
+
+.exp {
+  margin-top: 0.5rem; /* mt-2 */ /* w-56 */
+  font-family: "Inter", sans-serif; /* font-inter */
+  font-size: 0.775rem; /* text-sm (Tailwind has text-sm, not text-s) */
+}
+
+.inner {
+  width: 35rem;
+  background-color: #000; /* bg-black */
+  margin-left: 1.25rem; /* ml-5 */
+  margin-top: 1.75rem; /* mt-7 */
+  color: #fff; /* text-white */
+  font-size: 0.85rem; /* text-xs */
+  padding: 2rem 4rem;
+  font-weight: 600;
+}
+.h3class {
+  font-family: "Inter", sans-serif;
+  font-weight: 600; /* font-semibold */
+  font-style: italic; /* italic */
+  font-size: 0.875rem; /* text-sm (14px) */
+  line-height: 1.25rem; /* default Tailwind text-sm line-height */
+}
+.experience {
+  display: flex; /* flex */
+  gap: 10rem; /* gap-40 → 40 × 0.25rem = 10rem */
+  margin-bottom: 0.5rem; /* mb-10 → 10 × 0.25rem = 2.5rem */
+}
+.textclass {
+  height: 5vw; /* h-[5vw] */
+  font-weight: 700; /* font-bold */
+  font-size: 1.5rem; /* text-2xl (24px) */
+  line-height: 2rem; /* default Tailwind line-height for text-2xl */
+  padding-top: 1rem; /* pt-4 */
+  margin-left: 0.5rem; /* ml-2 */
+}
+.h1full {
+  font-weight: 400;
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+}
+.h1short {
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.imgclass {
+  width: 12rem;
+  height: 12rem;
+  margin-left: 5rem;
+}
+.arrow {
+  width: 2.5rem; /* w-10 = 40px */
+  height: 2.5rem; /* h-10 = 40px */
+  border: none; /* border */
+  border-radius: 1.5rem; /* rounded-3xl */
+  background-color: #fdf8f8; /* bg-black */
+  padding-left: 0.375rem; /* pl-1.5 = 6px */
+  justify-content: center;
+  color: #000;
+}
