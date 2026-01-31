@@ -11,11 +11,12 @@
   src: url(../src/assets/fonts/Montserrat-Regular.ttf);
 }
 
-/* body {
+body {
   height: screen;
-} */
+}
 
 @import "tailwindcss";
+@tailwind utilities;
 
 @theme {
   --font-inter: Inter, "sans-sarif";

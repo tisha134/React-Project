@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="">
       <div className="relative w-[84vw] justify-between">
         {/* // ---------------- Container Start ---------------------- */}
-        <div className=" ml-30 h-[33vw] w-[60vw] mt-20 bg-amber-400 pt-10">
+        <div className=" ml-30 h-[33vw] w-[60vw] mt-20 bg-gradient from-blue-500 to-green-400 pt-10">
           <div className="flex ml-20 h-[25vw] w-[50vw] bg-amber-200">
             <div className="w-[20vw] h-full">
               <h3 className="h3class mb-2">Contact</h3>

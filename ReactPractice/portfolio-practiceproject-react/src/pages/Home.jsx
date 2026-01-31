@@ -11,30 +11,42 @@ import {
 const Home = () => {
   return (
     // ---------------- Main Start ----------------------
-    <div className="flex w-[84vw]">
+    <div className="flex flex-col lg:flex-row w-full px-4 lg:px-0">
       {/* // ---------------- Container Start  ---------------------- */}
-      <div className="flex justify-between ml-20 h-[30vw] w-[68vw] mt-20">
+      <div
+        className="flex flex-col lg:flex-row justify-between 
+                lg:ml-20 mt-12 lg:mt-20 
+                w-full lg:w-[68vw]"
+      >
         {/* // ---------------- Intro Container Start ---------------------- */}
         {/* <div className="w-[75vw] h-[40vw] bg-amber-500"> */}
         {/* // ---------------- Intro Start ---------------------- */}
-        <div className="h-[27vw] w-[62vw] mt-11 ml-5">
+        <div className="w-full lg:w-[62vw] mt-6 lg:mt-11 lg:ml-5 text-center lg:text-left">
           {/* --------- Name --------- */}
-          <div className=" p-9 h-53 w-100 text-6xl font-inter leading-0.01">
-            MY NAME IS <span className="font-bold">JACOB JONES...</span>
+          <div className="p-4 lg:p-9 text-3xl sm:text-4xl lg:text-6xl font-inter">
+            MY NAME <br /> IS <span className="font-bold">JACOB JONES...</span>
           </div>
           {/* --------- Profession -------- */}
-          <div className="mt-2 ml-8 font-bold text-l w-71 font-inter italic">
+          <div className="mt-2 lg:ml-8 font-bold text-sm lg:text-lg font-inter italic">
             Product Designer <span className="font-thin">based in</span> London
           </div>
           {/* ---------- Message ---------- */}
           {/* <div className="pl-4 mt-10 w-65 bg-gray-400"> */}
-          <button className="ml-8 mt-4 flex w-[30vh] font-semibold items-center p-1.5 gap-1 bg-black text-white justify-center">
+          <button
+            className="mx-auto lg:ml-8 mt-4 flex w-52 
+                   font-semibold items-center p-2 gap-2 
+                   bg-black text-white justify-center"
+          >
             Let's talk to me <RiSendInsLine size={22} />
           </button>
           {/* </div> */}
           {/* ---------- Contact ---------- */}
-          <div className="flex ml-5 mt-15 w-85 justify-between">
-            <div className="flex items-center w-40 text-sm font-semibold gap-2">
+          <div
+            className="flex flex-col sm:flex-row 
+                justify-center lg:justify-between 
+                items-center mt-8 lg:ml-2 lg:w-[25vw]"
+          >
+            <div className="flex items-center text-sm font-semibold gap-2">
               <RiPhoneLine size={16} />
               +77 022 444 05 05
             </div>
@@ -47,18 +59,21 @@ const Home = () => {
         {/* </div> */}
         {/* // ---------------- Intro Container End ---------------------- */}
         {/* --------- Image Container ------------ */}
-        <div className="w-[50vw] h-[30vw] mr-15">
+        <div className="w-full lg:w-[50vw] mt-10 lg:mt-0 flex justify-center lg:h-[35vw]">
           <img
             src="../src/assets/images/img.png"
             alt=""
-            className="h-[32vw] w-[30vw]"
+            className="object-cover"
           />
         </div>
         {/* --------- Image Container ------------ */}
       </div>
       {/* // ---------------- Container End ---------------------- */}
       {/* ----------- Side Corner ------------ */}
-      <div className="relative items-center h-[16vw] mt-50 ml-30">
+      <div
+        className="hidden lg:flex flex-col items-center 
+                relative h-[16vw] mt-50 ml-30"
+      >
         <div className="sideSocial">
           <RiInstagramLine size={16} />
         </div>

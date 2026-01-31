@@ -9,11 +9,11 @@ import { useState } from "react";
 
 const Sidebar = () => {
   return (
-    <div className="flex relative">
-      <div className=" flex flex-col min-h-screen w-[16vw] bg-black text-white">
+    <div className="flex">
+      <div className=" flex flex-col h-full min-h-screen w-full lg:w-[16vw] bg-black text-white">
         <div>
-          <h1 className="relative logo font-lora">Jac.</h1>
-          <div className="relative flex flex-col mt-20 ml-10 gap-4">
+          <h1 className="logo font-lora">Jac.</h1>
+          <div className="flex flex-col mt-6 ml-4 lg:mt-20 lg:ml-10 gap-4">
             <Link className="title" to="./">
               HOME
             </Link>
