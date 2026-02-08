@@ -10,10 +10,10 @@ import { useState } from "react";
 const Sidebar = () => {
   return (
     <div className="flex">
-      <div className=" flex flex-col h-full min-h-screen w-full lg:w-[16vw] bg-black text-white">
+      <div className="flex flex-col w-full min-h-screen lg:w-[16vw] bg-black text-white">
         <div>
           <h1 className="logo font-lora">Jac.</h1>
-          <div className="flex flex-col mt-6 ml-4 lg:mt-20 lg:ml-10 gap-4">
+          <div className="flex flex-col gap-4 mt-4 ml-3 sm:mt-6 sm:ml-4 lg:mt-20 lg:ml-10">
             <Link className="title" to="./">
               HOME
             </Link>
@@ -34,7 +34,7 @@ const Sidebar = () => {
             </Link>
           </div>
         </div>
-        <div className="mt-22 ml-10 gap-2 ">
+        <div className="mt-12 ml-10 gap-2 ">
           <div className="">
             <div className="social">
               <RiInstagramLine />

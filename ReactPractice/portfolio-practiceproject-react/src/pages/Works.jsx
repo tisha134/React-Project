@@ -10,9 +10,9 @@ const Works = () => {
     // {------------body start-------------}
     <div className="flex  w-[84vw]">
       {/* ------------ Main Container Start -------------- */}
-      <div className="w-[73vw] mt-10 h-[85vw]">
+      <div className="w-[73vw] mt-10 h-[85vw] ">
         {/* ------------- upper div Start---------- */}
-        <div className="flex h-[40vw] w-[63vw] ml-23 mt-5">
+        <div className="flex h-auto w-[63vw] ml-23 mt-3 ">
           <div>
             <h3 className="h3class mb-2">Work</h3>
             <h1 className="h1full">RECENT PROJECT</h1>
@@ -35,7 +35,7 @@ const Works = () => {
                 <img src="../src/assets/images/img5.png" className="imgclass" />
               </div>
             </div>
-            <div className="flex  mt-7 gap-20">
+            <div className="flex  mt-5 gap-20">
               <div className="flex">
                 <div className="">
                   <h3 className="h3class mb-2">UX case STudy</h3>
@@ -54,9 +54,12 @@ const Works = () => {
               </div>
             </div>
 
-            <button className="mt-15 ml-90 bg-black text-white p-2 w-45 text-xs flex items-center justify-center">
+            <button className="mt-5 ml-90 bg-black text-white p-2 w-45 text-xs gap-2 flex items-center justify-center">
               Learn more{" "}
-              <RiArrowRightUpLine size={20} className="bg-amber-700" />
+              <RiArrowRightUpLine
+                size={20}
+                className="bg-gradient-to-r from-purple-500 via-red-400 to-orange-500"
+              />
             </button>
           </div>
         </div>
@@ -64,7 +67,7 @@ const Works = () => {
 
         {/* ------------- Lower div Start---------- */}
 
-        <div className="h-[36vw] w-[63vw] bg-amber-200 mt-18 ml-23">
+        <div className="h-[36vw] w-[63vw] bg-gradient-to-r from-purple-500 via-red-400 to-orange-500 mt-18 ml-23">
           <div className=" w-[50vw] pt-15 ml-25 h-[33vw]">
             <div>
               <h3 className="h3class mb-3 ml-80">Testimonial</h3>
@@ -83,7 +86,7 @@ const Works = () => {
                     {" "}
                     Chief Executive Officer, Besnik
                   </h3>
-                  <div className="flex gap-2 mt-10">
+                  <div className="flex gap-2 mt-5">
                     {" "}
                     <button className="arrow">
                       <RiArrowLeftLine />

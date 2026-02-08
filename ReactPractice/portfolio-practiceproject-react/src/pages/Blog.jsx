@@ -37,8 +37,12 @@ const Blog = () => {
           </div>
         </div>
 
-        <button className="mt-20 ml-90 bg-black text-white p-2 w-45 text-xs flex items-center justify-center">
-          Load more <RiArrowRightUpLine size={20} className="bg-amber-700" />
+        <button className="mt-20 ml-90 bg-black text-white p-2 w-45 text-xs gap-2 flex items-center justify-center">
+          Load more{" "}
+          <RiArrowRightUpLine
+            size={20}
+            className="bg-gradient-to-r from-purple-500 via-red-400 to-orange-500"
+          />
         </button>
       </div>
       {/* // ---------------- Container End ---------------------- */}

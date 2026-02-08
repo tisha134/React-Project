@@ -12,9 +12,9 @@ const About = () => {
     // {------------body start-------------}
     <div className="flex flex-col lg:flex-row w-full lg:w-[84vw] lg:mx-auto px-4">
       {/* ------------ Main Container Start -------------- */}
-      <div className="w-full lg:w-[71vw] mt-6 lg:mt-20 min-h-[60vh] lg:h-[81vw]">
+      <div className="w-full lg:w-[71vw] mt-6 lg:mt-15 min-h-[60vh] lg:h-[81vw]">
         {/* ------------- upper div Start---------- */}
-        <div className="flex w-full lg:w-[63vw] mt-6 lg:mt-0 lg:ml-6 h-auto lg:h-[37vw] bg-red-200">
+        <div className="flex w-full lg:w-[63vw] mt-6 lg:mt-0 lg:ml-14 h-auto lg:h-[37vw]">
           {/* ------------- Picture Container Start---------- */}
           <div className="w-full lg:w-[25vw]">
             <h3 className="h3class">Nice to meet you!</h3>
@@ -36,7 +36,7 @@ const About = () => {
           </div>
           {/* ------------- Picture Container End---------- */}
           {/* ------------- Detail Container Start---------- */}
-          <div className="w-full lg:w-[39vw] bg-amber-600">
+          <div className="w-full lg:w-[39vw]">
             {/* ------------- Upper Detail Container Start---------- */}
             <div className="flex flex-col sm:flex-row mt-6 sm:mt-10 ml-2 sm:ml-5 gap-4 sm:gap-10 w-full sm:w-auto lg:w-[30rem]">
               <div className="text-sm sm:text-base lg:text-lg font-semibold">
@@ -104,7 +104,7 @@ const About = () => {
 
         {/* ------------- upper div End---------- */}
         {/* ------------- Lower div Start---------- */}
-        <div className="flex h-[36vw] w-[70vw] bg-amber-200 mt-15 pt-20 pl-20 gap-30">
+        <div className="flex h-[36vw] w-[70vw] bg-gradient-to-r from-purple-500 via-red-400 to-orange-500 mt-15 pt-20 pl-20 gap-20 ml-0">
           {/* ------------- Left div Start---------- */}
           {/* <div className=" flex bg-blue-300 h-[30vw] w-[60vw] p-15 ml-5"> */}
           <div className=" w-[25vw] ">
@@ -114,9 +114,12 @@ const About = () => {
               Hello there! My name is Jacob <br></br> I am a web designer &
               developer, and I'm very passionate and dedicated to my work.
             </p>
-            <button className="mt-15 bg-black text-white p-3 w-55 text-xs flex items-center justify-center">
+            <button className="mt-15 bg-black text-white p-3 w-55 text-xs gap-2 flex items-center justify-center">
               Download my resume
-              <RiArrowRightUpLine size={20} className="bg-amber-700" />
+              <RiArrowRightUpLine
+                size={20}
+                className="bg-gradient-to-r from-purple-500 via-red-400 to-orange-500"
+              />
             </button>
           </div>
           {/* ------------- Left div Start---------- */}

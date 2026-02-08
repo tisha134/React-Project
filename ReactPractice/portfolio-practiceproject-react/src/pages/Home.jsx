@@ -11,12 +11,12 @@ import {
 const Home = () => {
   return (
     // ---------------- Main Start ----------------------
-    <div className="flex flex-col lg:flex-row w-full px-4 lg:px-0">
+    <div className="flex flex-col lg:flex-row w-full px-4 lg:px-0 min-h-screen lg:w-full">
       {/* // ---------------- Container Start  ---------------------- */}
       <div
         className="flex flex-col lg:flex-row justify-between 
-                lg:ml-20 mt-12 lg:mt-20 
-                w-full lg:w-[68vw]"
+                lg:ml-15 lg:pb-2 mt-12 lg:mt-20 
+                w-full lg:w-[68vw] lg:h-[35vw]"
       >
         {/* // ---------------- Intro Container Start ---------------------- */}
         {/* <div className="w-[75vw] h-[40vw] bg-amber-500"> */}

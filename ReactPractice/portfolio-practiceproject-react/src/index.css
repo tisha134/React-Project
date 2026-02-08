@@ -44,11 +44,11 @@ body {
 }
 
 .title {
-  font-family: "Roboto", sans-serif;
+  font-family: "Lora", sans-serif;
   color: #d1d5db;
   position: relative;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 400;
 }
 .title:hover {
   font-weight: bold;
@@ -63,40 +63,40 @@ body {
 }
 
 .exp {
-  margin-top: 0.5rem; /* mt-2 */ /* w-56 */
-  font-family: "Inter", sans-serif; /* font-inter */
-  font-size: 0.775rem; /* text-sm (Tailwind has text-sm, not text-s) */
+  margin-top: 0.5rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.775rem;
 }
 
 .inner {
   width: 35rem;
-  background-color: #000; /* bg-black */
-  margin-left: 1.25rem; /* ml-5 */
-  margin-top: 1.75rem; /* mt-7 */
-  color: #fff; /* text-white */
-  font-size: 0.85rem; /* text-xs */
+  background-color: #000;
+  margin-left: 1.25rem;
+  margin-top: 1.75rem;
+  color: #fff;
+  font-size: 0.85rem;
   padding: 2rem 4rem;
   font-weight: 600;
 }
 .h3class {
   font-family: "Inter", sans-serif;
-  font-weight: 600; /* font-semibold */
-  font-style: italic; /* italic */
-  font-size: 0.875rem; /* text-sm (14px) */
-  line-height: 1.25rem; /* default Tailwind text-sm line-height */
+  font-weight: 600;
+  font-style: italic;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 .experience {
-  display: flex; /* flex */
-  gap: 10rem; /* gap-40 → 40 × 0.25rem = 10rem */
-  margin-bottom: 0.5rem; /* mb-10 → 10 × 0.25rem = 2.5rem */
+  display: flex;
+  gap: 10rem;
+  margin-bottom: 0.5rem;
 }
 .textclass {
-  height: 5vw; /* h-[5vw] */
-  font-weight: 700; /* font-bold */
-  font-size: 1.5rem; /* text-2xl (24px) */
-  line-height: 2rem; /* default Tailwind line-height for text-2xl */
-  padding-top: 1rem; /* pt-4 */
-  margin-left: 0.5rem; /* ml-2 */
+  height: 5vw;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-top: 1rem;
+  margin-left: 0.5rem;
 }
 .h1full {
   font-weight: 400;
@@ -114,12 +114,12 @@ body {
   margin-left: 5rem;
 }
 .arrow {
-  width: 2.5rem; /* w-10 = 40px */
-  height: 2.5rem; /* h-10 = 40px */
-  border: none; /* border */
-  border-radius: 1.5rem; /* rounded-3xl */
-  background-color: #e22424; /* bg-black */
-  padding-left: 0.375rem; /* pl-1.5 = 6px */
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #f0c2c2;
+  padding-left: 0.375rem;
   justify-content: center;
   color: #000;
 }
