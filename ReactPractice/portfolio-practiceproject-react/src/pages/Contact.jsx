@@ -28,7 +28,7 @@ const Contact = () => {
                 <h2 className="text-xs">LINKEDIN</h2>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-purple-500 via-red-400 to-orange-500 w-full pl-10 pb-5">
+            <div className="bg-linear-to-r from-purple-500 via-red-400 to-orange-500 w-full pl-10 pb-5">
               <h1 className="h1full mt-6 mb-4">ANY PROJECT?</h1>
               <div className="flex gap-6 mt-10">
                 <textarea

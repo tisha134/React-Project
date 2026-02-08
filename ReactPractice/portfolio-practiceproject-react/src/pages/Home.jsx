@@ -18,8 +18,6 @@ const Home = () => {
                 lg:ml-15 lg:pb-2 mt-12 lg:mt-20 
                 w-full lg:w-[68vw] lg:h-[35vw]"
       >
-        {/* // ---------------- Intro Container Start ---------------------- */}
-        {/* <div className="w-[75vw] h-[40vw] bg-amber-500"> */}
         {/* // ---------------- Intro Start ---------------------- */}
         <div className="w-full lg:w-[62vw] mt-6 lg:mt-11 lg:ml-5 text-center lg:text-left">
           {/* --------- Name --------- */}
@@ -56,8 +54,6 @@ const Home = () => {
           </div>
         </div>
         {/* // ---------------- Intro End ---------------------- */}
-        {/* </div> */}
-        {/* // ---------------- Intro Container End ---------------------- */}
         {/* --------- Image Container ------------ */}
         <div className="w-full lg:w-[50vw] mt-10 lg:mt-0 flex justify-center lg:h-[35vw]">
           <img

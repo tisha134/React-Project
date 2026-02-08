@@ -41,7 +41,7 @@ const Blog = () => {
           Load more{" "}
           <RiArrowRightUpLine
             size={20}
-            className="bg-gradient-to-r from-purple-500 via-red-400 to-orange-500"
+            className="bg-linear-to-r from-purple-500 via-red-400 to-orange-500"
           />
         </button>
       </div>

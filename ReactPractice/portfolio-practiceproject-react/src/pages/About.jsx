@@ -38,7 +38,7 @@ const About = () => {
           {/* ------------- Detail Container Start---------- */}
           <div className="w-full lg:w-[39vw]">
             {/* ------------- Upper Detail Container Start---------- */}
-            <div className="flex flex-col sm:flex-row mt-6 sm:mt-10 ml-2 sm:ml-5 gap-4 sm:gap-10 w-full sm:w-auto lg:w-[30rem]">
+            <div className="flex flex-col sm:flex-row mt-6 sm:mt-10 ml-2 sm:ml-5 gap-4 sm:gap-10 w-full sm:w-auto lg:w-120">
               <div className="text-sm sm:text-base lg:text-lg font-semibold">
                 <h3 className="flex flex-col sm:flex-row items-center gap-3 mb-4">
                   <RiPhoneLine size={16} />
@@ -63,7 +63,7 @@ const About = () => {
             <div className="h-px bg-gray-400 w-full sm:w-[39vw] mt-2 sm:mt-5 mb-2 sm:mb-5"></div>
             {/* ------------- Lower Detail Container Start---------- */}
 
-            <div className="flex w-full sm:w-auto lg:w-[30rem] ml-2 sm:ml-5">
+            <div className="flex w-full sm:w-auto lg:w-120 ml-2 sm:ml-5">
               <div className="w-full sm:w-60">
                 <div className="flex flex-col sm:flex-row w-full sm:w-43 items-center">
                   <h1 className="font-inter text-lg sm:text-xl">10+</h1>
@@ -104,7 +104,7 @@ const About = () => {
 
         {/* ------------- upper div End---------- */}
         {/* ------------- Lower div Start---------- */}
-        <div className="flex h-[36vw] w-[70vw] bg-gradient-to-r from-purple-500 via-red-400 to-orange-500 mt-15 pt-20 pl-20 gap-20 ml-0">
+        <div className="flex h-[36vw] w-[70vw] bg-linear-to-r from-purple-500 via-red-400 to-orange-500 mt-15 pt-20 pl-20 gap-20 ml-0">
           {/* ------------- Left div Start---------- */}
           {/* <div className=" flex bg-blue-300 h-[30vw] w-[60vw] p-15 ml-5"> */}
           <div className=" w-[25vw] ">
@@ -118,7 +118,7 @@ const About = () => {
               Download my resume
               <RiArrowRightUpLine
                 size={20}
-                className="bg-gradient-to-r from-purple-500 via-red-400 to-orange-500"
+                className="bg-linear-to-r from-purple-500 via-red-400 to-orange-500"
               />
             </button>
           </div>

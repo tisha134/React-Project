@@ -11,10 +11,6 @@
   src: url(../src/assets/fonts/Montserrat-Regular.ttf);
 }
 
-body {
-  height: screen;
-}
-
 @import "tailwindcss";
 @tailwind utilities;
 

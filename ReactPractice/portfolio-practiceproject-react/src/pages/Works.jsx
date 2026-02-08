@@ -58,7 +58,7 @@ const Works = () => {
               Learn more{" "}
               <RiArrowRightUpLine
                 size={20}
-                className="bg-gradient-to-r from-purple-500 via-red-400 to-orange-500"
+                className="bg-linear-to-r from-purple-500 via-red-400 to-orange-500"
               />
             </button>
           </div>
@@ -67,7 +67,7 @@ const Works = () => {
 
         {/* ------------- Lower div Start---------- */}
 
-        <div className="h-[36vw] w-[63vw] bg-gradient-to-r from-purple-500 via-red-400 to-orange-500 mt-18 ml-23">
+        <div className="h-[36vw] w-[63vw] bg-linear-to-r from-purple-500 via-red-400 to-orange-500 mt-18 ml-23">
           <div className=" w-[50vw] pt-15 ml-25 h-[33vw]">
             <div>
               <h3 className="h3class mb-3 ml-80">Testimonial</h3>
